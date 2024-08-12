@@ -24,6 +24,11 @@ body {
     background-color: #1f2937;
     border: solid 1px greenyellow;
 }
+.splashimage img{
+    display: flex;
+    border-radius: 50px;
+    max-width: 400px;
+}
 .info {
     background-color: white;
     border: solid 1px red;
