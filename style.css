@@ -17,15 +17,28 @@ body {
 .headerbutton {
     background-color: #3882F6;
     color: white;
-    padding: 12px;
+    padding: 1em;
+    margin: 10px;
     border-radius: 10px;
+    width: 9em;
+    border: 0;
+    box-shadow: none;
+
 }
 .heroheader {
     background-color: #1f2937;
     border: solid 1px greenyellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.left-text {
+    border: solid 1px red;
+    max-width: 50%;
 }
 .splashimage img{
-    display: flex;
     border-radius: 50px;
     max-width: 400px;
 }
